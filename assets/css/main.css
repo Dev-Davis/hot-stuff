@@ -1,0 +1,64 @@
+body {
+    background-color: #423f3f;
+    background-image: url(../img/animatedFlames.gif);
+    background-size: cover;
+
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    float: auto;
+    float: auto;
+}
+
+#menu-one, #menu-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ #appetize, #carte, #ensaladas, #flavors {
+    width: 30%;
+    border: 2px solid orangered;
+    margin: 10px;
+    background-color: #353333;
+    background-image: url(../img/wood-back.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 11px;
+    text-align: center;
+} 
+ #wingers, #chickenTenders, #chickNfish, #famMeals  {
+    width: 40%;
+    border: 2px solid orangered;
+    margin: 5px;
+    background-color: #353333;
+    background-image: url(../img/wood-back.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 11px;
+    text-align: center;
+} 
+
+.sals, .aLa, .app, .wngs, .tens, .famPax {
+    font-size: 24px;
+    color: white;
+  /* -webkit-text-fill-color: white; Will override color (regardless of order) */
+  /* -webkit-text-stroke-width: 1px; */
+  /* -webkit-text-stroke-color: black; */
+}
+
+#flavors, #chickNfish {
+    color: white;
+  /* -webkit-text-fill-color: white; Will override color (regardless of order) */
+  /* -webkit-text-stroke-width: 1px; */
+  /* -webkit-text-stroke-color: black; */
+}
+
+#important {
+    
+}
